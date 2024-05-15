@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "slack-test-bot"
+version = "0.1.0"
+description = ""
+authors = ["KU-onji <mgr_127@yahoo.co.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+slack-bolt = "^1.18.1"
+slack-sdk = "^3.27.1"
+pre-commit = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
